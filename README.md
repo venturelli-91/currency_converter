@@ -1,40 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Currency Converter
 
-## Getting Started
+A real-time currency conversion application built with Next.js and modern web technologies.
 
-First, run the development server:
+## Quick Start
+
+### Prerequisites
+
+- Node.js 18+ installed
+
+### Installation
+
+```bash
+npm install
+```
+
+### Environment Setup
+
+Create a `.env.local` file in the project root:
+
+```
+NEXT_PUBLIC_API_KEY=your_currencyapi_com_api_key
+```
+
+Get your API key at [currencyapi.com](https://currencyapi.com)
+
+### Development
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Build
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```bash
+npm run build
+npm start
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Real-time currency conversion
+- Support for 7 major currencies (USD, EUR, JPY, CAD, INR, BRL, AUD)
+- Dark/light theme toggle
+- Responsive design
+- Live exchange rates via Currency API
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework**: Next.js 15
+- **Styling**: Tailwind CSS
+- **Components**: Flowbite React
+- **Icons**: React Icons
+- **Language**: TypeScript
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `src/App.tsx` - Main converter component
+- `src/pages/index.tsx` - Home page with feature showcase
+- `src/pages/_app.tsx` - App configuration
+- `src/assets/` - Static assets
+- `public/` - Public files
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+The app converts currencies using real-time rates from the Currency API. Enter an amount, select source and target currencies, and click "Convert".

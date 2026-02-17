@@ -4,53 +4,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap");
 
-.title {
-	@apply text-green-700 font-extrabold font-sans text-3xl;
-}
-
-.image {
-	@apply opacity-10 sm:w-full sm:h-full absolute -z-10;
-}
-.display {
-	@apply grid grid-rows-1 grid-cols-1 items-center mx-auto;
-}
-.title {
-	@apply grid grid-rows-4 mx-auto mt-44 sm:items-center;
-}
-
-.input-container {
-	@apply flex justify-center;
-}
-
-.input {
-	@apply grid p-3 rounded-2xl mb-2 bg-slate-300 font-bold;
-}
-
-.goal-currency-container {
-	@apply flex justify-center m-3;
-}
-
-.button-container {
-	@apply flex justify-center text-center;
-}
-
-.button {
-	@apply bg-green-800 p-5 rounded-3xl sm:w-48 sm:h-16 text-white font-extrabold m-10;
-}
-
-.select {
-	@apply p-1 rounded-md bg-slate-300;
-}
-
-.result-container {
-	@apply flex justify-center text-xl font-bold text-green-700 mt-4;
-}
-
-.reset-button {
-	@apply bg-slate-600 p-5 rounded-3xl sm:w-48 sm:h-16 text-white font-extrabold 
-	m-10 flex items-center gap-10 text-center;
-}
-
-.icon {
-	@apply flex text-slate-100;
+html {
+	font-family: "Space Grotesk", sans-serif;
 }

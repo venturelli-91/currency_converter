@@ -20,32 +20,31 @@ export default function Home() {
 				<div className="bg-blue-50 dark:bg-blue-900/20 py-16">
 					<div className="max-w-4xl mx-auto px-4">
 						<h2 className="text-2xl font-semibold text-center mb-8 text-blue-900 dark:text-blue-100">
-							Taxas de câmbio em tempo real
+							Real-time Exchange Rates
 						</h2>
 						<div className="grid md:grid-cols-3 gap-8">
 							<div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
 								<h3 className="font-semibold mb-2 text-gray-800 dark:text-gray-100">
-									Transferências seguras
+									Secure Transfers
 								</h3>
 								<p className="text-gray-600 dark:text-gray-400">
-									Envie dinheiro para mais de 190 países em 130 moedas
-									diferentes
+									Send money to over 190 countries in 130 different currencies
 								</p>
 							</div>
 							<div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
 								<h3 className="font-semibold mb-2 text-gray-800 dark:text-gray-100">
-									Taxas competitivas
+									Competitive Rates
 								</h3>
 								<p className="text-gray-600 dark:text-gray-400">
-									Obtenha as melhores taxas de câmbio do mercado
+									Get the best exchange rates on the market
 								</p>
 							</div>
 							<div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
 								<h3 className="font-semibold mb-2 text-gray-800 dark:text-gray-100">
-									Atualizações em tempo real
+									Real-time Updates
 								</h3>
 								<p className="text-gray-600 dark:text-gray-400">
-									Acompanhe as variações das taxas em tempo real
+									Track exchange rate fluctuations in real-time
 								</p>
 							</div>
 						</div>
@@ -55,10 +54,10 @@ export default function Home() {
 				<div className="bg-white dark:bg-gray-900 py-16">
 					<div className="max-w-4xl mx-auto px-4 text-center">
 						<h2 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-gray-100">
-							Ferramentas de conversão
+							Conversion Tools
 						</h2>
 						<p className="text-gray-600 dark:text-gray-400">
-							Acesse ferramentas avançadas para suas necessidades de câmbio
+							Access advanced tools for your currency exchange needs
 						</p>
 					</div>
 				</div>
